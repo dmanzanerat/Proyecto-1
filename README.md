@@ -1,11 +1,11 @@
-#Integrantes
+# Integrantes
 
-Daniel Manzanera, 202411443, d.manzanerat@uniandes.edu.co
-Santiago Gomez, 202221885, s.gomezp2@uniandes.edu.co
-Santiago Pinilla, 202315246, s.pinillap2@uniandes.edu.co
+//Daniel Manzanera, 202411443, d.manzanerat@uniandes.edu.co
+//Santiago Gomez, 202221885, s.gomezp2@uniandes.edu.co
+//Santiago Pinilla, 202315246, s.pinillap2@uniandes.edu.co
 
-#hola
-hola dani 
+# hola
+# hola dani 
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⣤⣤⣴⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣦⣄⠀⢀⣠⣴⣶⣾⣿⣿⣿⣿⣿⣶⣶⣄⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⢿⣿⣿⠙⢿⣿⣿⡿⠛⠛⠛⠛⠛⠛⠛⠛⣿⣷⠀⠀
@@ -28,7 +28,8 @@ hola dani
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⣄⣈⣩⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠛⠻⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠿⠛⠛⠉⠉⠉⠉⠛⠛⠿⠿⠿⠿⠿⠿⠿⠛⠁⠀⠀⠀⠀
 
-Bueno ahora si, serios 
+Bueno ahora si, serios
+
 ────────────────────────────────────────
 ─────────────▄▄██████████▄▄─────────────
 ─────────────▀▀▀───██───▀▀▀─────────────
@@ -49,5 +50,6 @@ Bueno ahora si, serios
 ───────▀─────▄▄▄───██───▄▄▄──────▀──────
 ──────────── ▀▀███████████▀▀ ────────────
 ────────────────────────────────────────
+
 
 "Posdata, sorry por la ortografía"
