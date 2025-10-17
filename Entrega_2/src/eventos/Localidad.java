@@ -1,7 +1,8 @@
 package eventos;
 
-import java.util.List;
+import java.util.*;
 import tiquetes.Tiquete;
+
 
 public class Localidad {
     private String idLocalidad;
@@ -9,6 +10,7 @@ public class Localidad {
     private double precio;
     private boolean numerada;
     private int capacidad;
+    private List<Tiquete> tiquetes;
 
     public Localidad(String idLocalidad, String nombre, double precio, boolean numerada, int capacidad) {
         this.idLocalidad = idLocalidad;
@@ -16,10 +18,24 @@ public class Localidad {
         this.precio = precio;
         this.numerada = numerada;
         this.capacidad = capacidad;
+        this.tiquetes = new ArrayList<>();
     }
 
-    public List<Tiquete> generarTiquetes(Evento evt) { /* TODO */ return null; }
+    public List<Tiquete> generarTiquetes(Evento evento) {
+        tiquetes.clear();
+        for (int i = 1; i <= capacidad; i++) {
+            String idTiquete = evento.getIdEvento() + "-" + idLocalidad + "-" + i;
+            String asiento = numerada ? String.valueOf(i) : null;
+            Tiquete tiquete = new Tiquete(evento.getIdEvento(), idLocalidad, idTiquete);
+            tiquetes.add(tiquete);
+        }
+        return tiquetes;
+    }
 
-    public int getCapacidad() { return capacidad; }
+    public String getIdLocalidad() { return idLocalidad; }
+    public String getNombre() { return nombre; }
     public double getPrecio() { return precio; }
+    public boolean isNumerada() { return numerada; }
+    public int getCapacidad() { return capacidad; }
+    public List<Tiquete> getTiquetes() { return tiquetes; }
 }
