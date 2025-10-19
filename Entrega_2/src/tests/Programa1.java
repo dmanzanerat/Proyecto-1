@@ -15,6 +15,8 @@ import tiquetes.TiqueteNumerado;
 
 public class Programa1 {
 
+	//Helpers	
+
  private PoliticaCargos politicaBasica() {
      Map<String, Double> mapa = new HashMap<>();
      mapa.put("musical", 0.10);
@@ -23,6 +25,9 @@ public class Programa1 {
      pc.setMaxTiquetesPorTransaccion(10);
      return pc;
  }
+ 
+ 
+ 	//Casos de prueba
 
  @Test
  void crearEvento() {
@@ -58,7 +63,7 @@ public class Programa1 {
      assertEquals(3, ids.size(), "Cada tiquete debe tener id único");
 
      double esperado = tickets.get(0).calcularPrecioTotal(pc);
-     tickets.forEach(t -> assertEquals(esperado, t.calcularPrecioTotal(pc), 1e-9));
+     tickets.forEach(t -> assertEquals(esperado, t.calcularPrecioTotal(pc)));
  }
 
  @Test
@@ -104,6 +109,6 @@ public class Programa1 {
      assertEquals(4, tickets.size());
 
      double esperado = tickets.get(0).calcularPrecioTotal(pc);
-     tickets.forEach(t -> assertEquals(esperado, t.calcularPrecioTotal(pc), 1e-9));
+     tickets.forEach(t -> assertEquals(esperado, t.calcularPrecioTotal(pc)));
  }
 }

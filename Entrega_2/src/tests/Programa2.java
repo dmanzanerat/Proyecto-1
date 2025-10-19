@@ -16,7 +16,7 @@ import usuarios.Cliente;
 
 public class Programa2 {
 
-    //Helpers de configuración y compra
+    //Helpers
 	
     private PoliticaCargos configurarPolitica(Administrador admin) {
         admin.fijarCargoServicio("musical", 0.10); 
