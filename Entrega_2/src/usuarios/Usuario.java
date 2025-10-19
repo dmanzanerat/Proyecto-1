@@ -46,7 +46,7 @@ public abstract class Usuario {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{" +
+        return getClass().getSimpleName() + "{" +	
                 "login='" + login + '\'' +
                 ", saldo=" + saldoPlataforma +
                 '}';

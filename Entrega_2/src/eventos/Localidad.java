@@ -1,8 +1,11 @@
 package eventos;
 
-import java.util.*;
-import tiquetes.Tiquete;
+import java.util.ArrayList;
+import java.util.List;
 
+import tiquetes.Tiquete;
+import tiquetes.TiqueteNumerado;  
+import tiquetes.TiqueteSimple; 
 
 public class Localidad {
     private String idLocalidad;
@@ -24,13 +27,16 @@ public class Localidad {
     public List<Tiquete> generarTiquetes(Evento evento) {
         tiquetes.clear();
         for (int i = 1; i <= capacidad; i++) {
-            String idTiquete = evento.getIdEvento() + "-" + idLocalidad + "-" + i;
-            String asiento = numerada ? String.valueOf(i) : null;
-            Tiquete tiquete = new Tiquete(evento.getIdEvento(), idLocalidad, idTiquete);
-            tiquetes.add(tiquete);
+            if (numerada) {
+                tiquetes.add(new TiqueteNumerado(evento, this, String.valueOf(i)));
+            } else {
+                String idTiquete = evento.getIdEvento() + "-" + idLocalidad + "-" + i;
+                tiquetes.add(new TiqueteSimple(evento, this, idTiquete));
+            }
         }
         return tiquetes;
     }
+
 
     public String getIdLocalidad() { return idLocalidad; }
     public String getNombre() { return nombre; }

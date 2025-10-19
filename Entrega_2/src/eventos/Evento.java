@@ -41,8 +41,8 @@ public class Evento {
         if (loc == null) return 0;
 
         long vendidos = tiquetesVendidos.stream()
-                .filter(t -> t.getLocalidad().equals(idLocalidad))
-                .count();
+            .filter(t -> t.getLocalidad().getIdLocalidad().equals(idLocalidad)) 
+            .count();
 
         return loc.getCapacidad() - (int) vendidos;
     }
