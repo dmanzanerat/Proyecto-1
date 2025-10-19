@@ -91,9 +91,9 @@ public class Programa3 {
         Localidad palco = new Localidad("PAL", "Palco", 200.0, true, 2);
         evento.agregarLocalidad(palco);
 
-        List<Tiquete> seats = palco.generarTiquetes(evento);
-        Tiquete silla1 = seats.get(0);
-        Tiquete silla2 = seats.get(1);
+        List<Tiquete> sillas = palco.generarTiquetes(evento);
+        Tiquete silla1 = sillas.get(0);
+        Tiquete silla2 = sillas.get(1);
 
         Cliente origen = new Cliente("origen", "123");
         Cliente destino1 = new Cliente("destino1", "a");
