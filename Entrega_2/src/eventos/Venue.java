@@ -8,7 +8,7 @@ public class Venue {
     private String nombre;
     private String ubicacion;
     private int capacidadMaxima;
-    private Set<String> fechasOcupadas; // fechas (YYYY-MM-DD)
+    private Set<String> fechasOcupadas; 
 
     public Venue(String idVenue, String nombre, String ubicacion, int capacidadMaxima) {
         this.idVenue = idVenue;

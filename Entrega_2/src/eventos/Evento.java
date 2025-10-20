@@ -7,10 +7,10 @@ import tiquetes.Tiquete;
 public class Evento {
     private String idEvento;
     private String nombre;
-    private String tipo;       // musical/cultural/deportivo/religioso...
-    private String fecha;      // formato simplificado (YYYY-MM-DD)
-    private String hora;       // formato HH:MM
-    private String estado;     // PROGRAMADO o CANCELADO
+    private String tipo;       
+    private String fecha;      
+    private String hora;       
+    private String estado;     
 
     private Venue venue;
     private List<Localidad> localidades;
